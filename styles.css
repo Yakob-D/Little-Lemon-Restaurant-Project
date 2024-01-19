@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+form {
+ text-align: center;  
+ margin-top: 50px;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+input {
+    border-radius: 7px;
+}
+
+label {
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+button {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 50px;
+    background: black;
+    color: rgb(171, 171, 171);
+}
+
+.copyright {
+    text-align: center;
+    margin-right: 80px;
+    color: rgb(112, 112, 112);
+}
+.size {
+    border: 0.5px solid black;
+    padding: 10px;
+    margin: auto 30px;
+}
+.location {
+    border: 0.5px solid black;
+    padding: 10px;
+    margin: auto 30px;
+}
+.table-booking {
+    text-align: center;
+}

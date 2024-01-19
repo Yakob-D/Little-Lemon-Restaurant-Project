@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;400;500;600;700;800&display=swap');
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+header img{
+    padding: 0;
+    object-fit: contain;
+    width: 600px;
+    height: 300px;
+}
+
+header div{
+    display: grid;
+    place-items: center;
+}
+footer img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    margin-left: 90px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border: none;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.09);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 90px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(58, 166, 58);
+}
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgb(69, 107, 12);
+    transition: 300ms ease;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: greenyellow;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+}
+.first-row {
+    margin: 50px 50px;
+}
+.first-row p {
+    font-weight: 350;
+    font-size: 22px;
+    padding: 5px;
+    padding-top: 55px;
+    line-height: 45px;
+}
+.first-row h1 {
+    font-weight: 500;
+    font-size:65px;
+    text-align: center;
+    padding-top: 25px;
+}
+.card-text {
+    font-weight: 350;
+    font-size: 20px;
+}
+.card-title {
+    font-weight: 400;
+}
+section {
+    display: flex;
+}
+article{
+    flex: 1;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.card {
+    width: 300%;
+}
+.card-title{
+    text-align: center;
+}
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
+.copyright {
+    text-align: end;
+    margin-right: 80px;
+    color: rgb(112, 112, 112);
+}
+hr {
+    width: 90%;
+}
+footer img {
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
